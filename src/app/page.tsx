@@ -19,6 +19,7 @@ export default function Home() {
      
      <div className=" relative md:min-h-10 min-h-[800px]">
      <Particles></Particles>
+     
         <Hero></Hero>
        
         <div className=" flex md:hidden">

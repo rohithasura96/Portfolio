@@ -59,7 +59,7 @@ function hexToRgb(hex: string): number[] {
 
 const Particles: React.FC<ParticlesProps> = ({
   className = "",
-  quantity = 400,
+  quantity = 500,
   staticity = 50,
   ease = 20,
   size = 1,

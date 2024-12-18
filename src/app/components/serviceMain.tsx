@@ -43,7 +43,8 @@ const ServiceCard: React.FC<{
                                 <IconComponent className="w-8 h-8 sm:w-10 sm:h-10 text-white" />
                             </div>
                             <h3 className="text-lg sm:text-xl font-semibold text-neutral-50 mb-2 sm:mb-3">{service.title}</h3>
-                            <p className="text-xs sm:text-sm max-w-60 mx-auto text-neutral-500">{service.description}</p>
+                            <p className="text-xs sm:text-sm max-w-60 mx-auto text-neutral-300
+                            00">{service.description}</p>
                             <BorderBeam className=' '/>
                             <BorderBeam className=' '/>
                             

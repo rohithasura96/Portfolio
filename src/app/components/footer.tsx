@@ -2,6 +2,8 @@ import Link from 'next/link'
 import React from 'react'
 
 const Footer = () => {
+   
+
   return (
     <footer className=" py-8 ">
       <div className="container flex flex-col md:gap-0 gap-6 md:flex-row sm:justify-between items-center mx-auto px-4 text-center ">

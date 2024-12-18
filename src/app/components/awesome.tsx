@@ -11,7 +11,7 @@ const SlickSlider = () => {
           src="/awesome1.png"
           alt="Slide"
           fill
-          objectFit="cover"
+         
           className="rounded-lg"
         />
       </div>
@@ -23,7 +23,7 @@ const SlickSlider = () => {
           src="/awesome2.png"
           alt="Slide"
           fill
-          objectFit="cover"
+          
           className="rounded-lg"
         />
       </div>
@@ -36,7 +36,7 @@ const SlickSlider = () => {
           src="/awesome3.png"
           alt="Slide"
           fill
-          objectFit="cover"
+        
           className="rounded-lg"
         />
       </div>

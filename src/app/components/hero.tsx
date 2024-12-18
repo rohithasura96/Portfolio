@@ -5,8 +5,8 @@ import Particles from "@/components/ui/particles";
 
 const Hero: React.FC = () => {
   return (
-    <section className=" w-full bg-[url('/hero-color.png')] bg-cover bg-center  bg-[#121213] flex items-center  justify-center">
-      <div className="container absolute top-10  mx-auto px-6 flex flex-col md:flex-row items-center">
+    <section className=" w-full bg-[url('/hero-color.png')] bg-cover bg-center    bg-[#121213] flex items-center  justify-center">
+      <div className="container absolute top-10  mx-auto px-6 flex  flex-col  max-h-[1100px] md:flex-row items-center">
         {/* Left Content */}
         <div className="flex-1 text-center md:text-left max-w-[400px]">
           <h1 className="text-4xl  md:text-5xl tracking-wide font md:leading-[59px] font-extrabold text-white ">
@@ -27,7 +27,8 @@ const Hero: React.FC = () => {
 
         {/* Right Image */}
         <div className="flex-1 flex justify-center md:justify-end mt-8 md:mt-0">
-          <div className=" hidden md:flex absolute top-40 right-36 rotate-[23deg] rounded-2xl w-[300px] h-[300px] border-2 border-neutral-50"> </div>
+        <div className=" hidden lg:flex absolute top-40 right-36 rotate-[23deg] rounded-2xl w-[300px] h-[300px] border-2 border-neutral-50"> </div>
+          <div className=" hidden lg:hidden  md:flex absolute top-[135px] right-28 rotate-[24deg] rounded-2xl w-[200px] h-[200px] border-2 border-neutral-50"> </div>
           <img
             src="/hero-imgs1.png" // Make sure this image is in the public folder
             alt="Platform illustration"

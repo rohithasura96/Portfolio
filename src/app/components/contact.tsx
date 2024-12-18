@@ -16,7 +16,7 @@ const Contact = () => {
 
           {/* Button Section */}
           <div className="mt-8 md:mt-0">
-            <button className="bg-[#5454D4] hover:bg-cyan-600 text-white font-bold py-3 px-6 rounded shadow-lg transition duration-300 ease-in-out transform hover:scale-105">
+          <button className="bg-[#5454D4] hover:bg-cyan-600 text-white font-bold py-3 px-6 rounded-sm ">
               Our Services
             </button>
           </div>
