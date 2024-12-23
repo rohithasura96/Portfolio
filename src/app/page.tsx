@@ -1,4 +1,3 @@
-import Image from "next/image";
 import Header from "./components/header";
 import Hero from './components/hero';
 import Particles from "@/components/ui/particles";
@@ -6,8 +5,6 @@ import Video from './components/video';
 
 import ServiceMain from './components/serviceMain';
 import Awesome from "./components/awesome";
-import { title } from "process";
-import contact from './components/contact';
 import Contact from './components/contact';
 import Footer from './components/footer';
 

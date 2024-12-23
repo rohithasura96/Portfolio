@@ -6,7 +6,7 @@ const Footer = () => {
 
   return (
     <footer className=" py-8 ">
-      <div className="container flex flex-col md:gap-0 gap-6 md:flex-row sm:justify-between items-center mx-auto px-4 text-center ">
+      <div className="container flex flex-col md:gap-0 md:flex-row md:justify-between items-center mx-auto px-4 text-center ">
         <div className="flex items-center justify-center  mb-4">
           <Link href="/" className="hover:text-gray-600 text-neutral-50 flex items-center">
             <img
@@ -17,8 +17,7 @@ const Footer = () => {
             <span className="text-lg font-semibold">Enver</span>
           </Link>
         </div>
-        
-        <div className="flex  items-center flex-col md:gap-0 gap-6 md:flex-row space-x-6 flex-wrap">
+        <div className="flex  items-center flex-col md:gap-0 gap-6 lg:flex-row space-x-6 flex-wrap">
           <a href="#" className="text-gray-400 hover:text-white transition">
            Support
           </a>

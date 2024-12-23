@@ -18,7 +18,7 @@ const ServiceCard: React.FC<{
     services: Service[];
 }> = ({ title, summary, services }) => {
     return (
-      <div className='  overflow-hidden '>
+      <div id='services' className='  overflow-hidden '>
         
         <div className="container   py-3 mx-auto px-4">
          

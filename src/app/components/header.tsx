@@ -11,7 +11,7 @@ const Header: React.FC = () => {
 
   return (
     <header className="bg-[#121213] w-full shadow-md">
-      <div className="container mx-auto flex justify-between items-center py-4 px-6 relative">
+      <div className="container mx-auto flex justify-between items-center py-4 lg:px-6 relative">
         {/* Logo */}
         <div className="text-2xl font-bold text-gray-800 flex items-center">
           <a href="/" className="hover:text-gray-600 text-neutral-50 flex items-center">
@@ -75,9 +75,9 @@ const Header: React.FC = () => {
           <ul className="flex flex-col md:flex-row md:space-x-6 p-4 md:p-0">
             {[
               { href: "/", label: "Home" },
-              { href: "/services", label: "Services" },
-              { href: "/projects", label: "Our Project" },
-              { href: "/about", label: "About Us" }
+              { href: "/#services", label: "Services" },
+              { href: "/#projects", label: "Our Project" },
+              { href: "/#about", label: "About Us" }
             ].map(({ href, label }) => (
               <li key={href}>
                 <a

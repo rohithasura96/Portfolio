@@ -2,7 +2,7 @@ import React from 'react';
 
 const Contact = () => {
   return (
-    <section className="md:py-10 bg-[#19191B] rounded-lg">
+    <section id='about' className="md:py-10 bg-[#19191B] rounded-lg">
       <div className="container mx-auto px-4">
         {/* Card Container */}
         <div className="flex flex-col md:flex-row md:items-center justify-between  rounded-lg  p-8  md:p-12">
