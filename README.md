@@ -1,36 +1,62 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Rohit's Portfolio App 
+
+Welcome to the Sample Website Project! This repository contains a basic example of a simple and responsive website, which can serve as a foundation for your own web development projects. Below you will find all the details about the project and how to get started.
+
+---
+
+## Features
+
+- **Responsive Design:** Fully optimized for desktops, tablets, and mobile devices.
+- **About Section:** Highlighting my skills, background, and achievements.
+- **Navigation Bar**: Easy-to-use navigation links for seamless browsing.
+- **Static Pages**: Home, About, and Contact pages with placeholder content
+- **Dynamic Animations:** Smooth transitions and hover effects for a polished user experience.
+- **Magic UI Hero Background:** Features the "Particles" and "Border Beam" animations for a captivating visual experience.
+
+---
+
+## Technologies Used
+
+- **Frontend:** HTML5, CSS3, TypeScript, Next js (or React, if applicable)
+- **Styling:** Tailwind CSS /Custom CSS
+- **Background Effects:** Magic UI Hero (Particles and Border Beam)
+- **Version Control:** Git and GitHub
+
+---
 
 ## Getting Started
 
-First, run the development server:
+### Prerequisites
+To run this project locally, ensure you have the following installed:
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- Node.js and npm (for projects with backend or dependencies)
+- A modern web browser
+- A code editor like VS Code
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### Installation
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+1. Clone the repository:
+   ```bash
+   git clone git@github.com:rohithasura96/Portfolio-1.git
+   ```
+2. Navigate to the project directory:
+   ```bash
+   cd portfolio-1
+   ```
+3. (Optional) Install dependencies:
+   ```bash
+   npm install
+   ```
+4. Open `index.html` in your browser or use a local server to view the site.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+---
 
-## Learn More
 
-To learn more about Next.js, take a look at the following resources:
+## Contact
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Feel free to reach out through the following channels:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+- **Email:** rohit7388kumar@gmail.com
+- **GitHub:** https://github.com/rohithasura96
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Thank you for checking out my portfolio! 😊
