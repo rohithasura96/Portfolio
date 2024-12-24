@@ -37,19 +37,19 @@ To run this project locally, ensure you have the following installed:
 
 1. Clone the repository:
    ```bash
-   git clone git@github.com:rohithasura96/Portfolio-1.git
+   git clone git@github.com:rohithasura96/Portfolio.git
    ```
 2. Navigate to the project directory:
    ```bash
-   cd portfolio-1
+   cd portfolio
    ```
-3. (Optional) Install dependencies:
-   ```bash
+3. Install dependencies:
+   
    npm install
    ```
-4. Open `index.html` in your browser or use a local server to view the site.
-
----
+4. Run local dev servar
+   ```bash
+   npm run dev
 
 
 ## Contact
